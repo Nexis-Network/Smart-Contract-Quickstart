@@ -4,7 +4,7 @@
 
 Exzo Network is an open-source platform for launching decentralized applications and enterprise blockchain deployments in one interoperable, highly scalable ecosystem. Exzo Network gives you complete control on both the network and application layers&mdash;helping you build anything you can imagine.
 
-The Exzo Network Network is composed of many blockchains. One of these blockchains is the C-Chain (Contract Chain), which is an Ethereum Virtual Machine instance. The C-Chain's API is almost identical to an Ethereum node's API. Exzo Network offers the same interface as Ethereum but with higher speed, higher throughput, lower fees and lower transaction confirmation times. These properties considerably improve the performance of DApps and the user experience of smart contracts.
+The Exzo Network Network is an EVM and Rust compatible blockchain. Exzo Network EVM allows for smart contract deployment, which uses an Ethereum Virtual Machine instance that enables these low cost fee's, high scalabiity, and fast transactions. The API is almost identical to an Ethereum node's API. Exzo Network offers the same interface as Ethereum but with higher speed, higher throughput, lower fees and lower transaction confirmation times. These properties considerably improve the performance of DApps and the user experience of smart contracts.
 
 The goal of this guide is to lay out best practices regarding writing, testing and deployment of smart contracts to Exzo Network's C-Chain. We'll be building smart contracts with development environment [Hardhat](https://hardhat.org).
 
