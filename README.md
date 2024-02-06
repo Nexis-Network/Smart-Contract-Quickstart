@@ -1,5 +1,3 @@
-![Nexis Network Smart Contract Guide](https://raw.githubusercontent.com/Nexis-Network/Nexis-Network-Branding-Assets/main/index.png)
-
 ## Introduction
 
 Nexis Network is an open-source platform for launching decentralized applications and enterprise blockchain deployments in one interoperable, highly scalable ecosystem. Nexis Network gives you complete control on both the network and application layers&mdash;helping you build anything you can imagine.
