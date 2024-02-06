@@ -1,12 +1,12 @@
-![Exzo Network Smart Contract Guide](https://raw.githubusercontent.com/Exzo-Network/Exzo-Network-Branding-Assets/main/index.png)
+![Nexis Network Smart Contract Guide](https://raw.githubusercontent.com/Nexis-Network/Nexis-Network-Branding-Assets/main/index.png)
 
 ## Introduction
 
-Exzo Network is an open-source platform for launching decentralized applications and enterprise blockchain deployments in one interoperable, highly scalable ecosystem. Exzo Network gives you complete control on both the network and application layers&mdash;helping you build anything you can imagine.
+Nexis Network is an open-source platform for launching decentralized applications and enterprise blockchain deployments in one interoperable, highly scalable ecosystem. Nexis Network gives you complete control on both the network and application layers&mdash;helping you build anything you can imagine.
 
-The Exzo Network Network is an EVM and Rust compatible blockchain. Exzo Network EVM allows for smart contract deployment, which uses an Ethereum Virtual Machine instance that enables these low cost fee's, high scalabiity, and fast transactions. The API is almost identical to an Ethereum node's API. Exzo Network offers the same interface as Ethereum but with higher speed, higher throughput, lower fees and lower transaction confirmation times. These properties considerably improve the performance of DApps and the user experience of smart contracts.
+The Nexis Network Network is an EVM and Rust compatible blockchain. Nexis Network EVM allows for smart contract deployment, which uses an Ethereum Virtual Machine instance that enables these low cost fee's, high scalabiity, and fast transactions. The API is almost identical to an Ethereum node's API. Nexis Network offers the same interface as Ethereum but with higher speed, higher throughput, lower fees and lower transaction confirmation times. These properties considerably improve the performance of DApps and the user experience of smart contracts.
 
-The goal of this guide is to lay out best practices regarding writing, testing and deployment of smart contracts to Exzo Network's C-Chain. We'll be building smart contracts with development environment [Hardhat](https://hardhat.org).
+The goal of this guide is to lay out best practices regarding writing, testing and deployment of smart contracts to Nexis Network's C-Chain. We'll be building smart contracts with development environment [Hardhat](https://hardhat.org).
 
 ## Prerequisites
 
@@ -20,20 +20,20 @@ Next, install [yarn](https://yarnpkg.com):
 npm install -g yarn
 ```
 
-### Exzo Network
+### Nexis Network
 
-[Exzo Network](https://github.com/Exzo-Network/Exzo-Network-Blockchain) is an Exzo Network node implementation written in Rust.
+[Nexis Network](https://github.com/Nexis-Network/Nexis-Network-Blockchain) is an Nexis Network node implementation written in Rust.
 
-### Solidity and Exzo Network
+### Solidity and Nexis Network
 
-It is also helpful to have a basic understanding of [Solidity](https://docs.soliditylang.org) and [Exzo Network](https://docs.exzo.network).
+It is also helpful to have a basic understanding of [Solidity](https://docs.soliditylang.org) and [Nexis Network](https://docs.Nexis.network).
 
 ## Dependencies
 
 Clone the [quickstart repository](https://github.com/ava-labs/avalanche-smart-contract-quickstart) and install the necessary packages via `yarn`.
 
 ```zsh
-$ git clone https://github.com/Exzo-Network/Smart-Contract-Quickstart.git
+$ git clone https://github.com/Nexis-Network/Smart-Contract-Quickstart.git
 $ cd smart-contract-quickstart
 $ yarn
 ```
@@ -46,15 +46,15 @@ Edit the `Coin.sol` contract in `contracts/`. `Coin.sol` is an [Open Zeppelin](h
 
 Hardhat uses `hardhat.config.js` as the configuration file. You can define tasks, networks, compilers and more in that file. For more information see [here](https://hardhat.org/config/).
 
-In our repository we use a pre-configured file [hardhat.config.ts](https://github.com/Exzo-Network/Smart-Contract-Quickstart/blob/main/hardhat.config.ts). This file configures necessary network information to provide smooth interaction with Exzo Network. There are also some pre-defined private keys for testing on a local test network.
+In our repository we use a pre-configured file [hardhat.config.ts](https://github.com/Nexis-Network/Smart-Contract-Quickstart/blob/main/hardhat.config.ts). This file configures necessary network information to provide smooth interaction with Nexis Network. There are also some pre-defined private keys for testing on a local test network.
 
 ## Hardhat Tasks
 
-You can define custom hardhat tasks in [hardhat.config.ts](https://github.com/Exzo-Network/Smart-Contract-Quickstart/blob/main/hardhat.config.ts).
+You can define custom hardhat tasks in [hardhat.config.ts](https://github.com/Nexis-Network/Smart-Contract-Quickstart/blob/main/hardhat.config.ts).
 
 ## Documentation
 
-https://docs.exzo.network
+https://docs.Nexis.network
 
 
 ## Troubleshoot
